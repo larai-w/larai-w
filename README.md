@@ -10,10 +10,21 @@ My caregiving experience began as a **young carer** — that lived perspective, 
 - **GenAI** — LLM evaluation & grounded, governed AI-assisted delivery
 - **Delivery** — PMP · Agile — user stories, auditable issues, honest status reporting
 
-### 📦 Things I've built
-- **[CareReady](https://veai.jp/ready/)** — a care-transition belongings checklist, offline-first PWA
-- **[ParkinSync](https://github.com/larai-w/ParkinSync)** — a synthetic-only caregiver-data → HL7 FHIR R4 evidence path (deterministic, CI-verified)
-- **[VEAI LAB.](https://veai.jp/)** — a small studio building care technology
-- **[Writing](https://veai.jp/blog/)** — engineering notes & caregiving essays
+### 📦 Products I've built — VEAI LAB.
+
+**Live**
+- **[CareReady](https://veai.jp/ready/)** — an offline belongings checklist for care transitions (hospital, short-stay, day service). PWA.
+- **[CareQuest](https://veai.jp/carequest/)** — a local-first care-record PWA with opt-in AWS sync.
+- **[かんたん家族サポート](https://veai.jp/kazoku-support/)** — one page of big buttons for a family member who finds apps hard.
+
+**In development**
+- **[Medication Promise](https://veai.jp/apps/medication-promise/)** — medication records by tap or Alexa, with a gentle streak that never shames.
+- **[GutPacer](https://veai.jp/apps/gutpacer/)** — fast bowel & medication records for a private household (serverless + LINE).
+- **[ParkinSync](https://github.com/larai-w/ParkinSync)** — caregiver paper logs → analysis-ready **HL7 FHIR R4** evidence (synthetic-only, deterministic, CI-verified).
+
+**Research**
+- **[EchoCare](https://veai.jp/apps/echocare/)** — voice-enabled care alerts (prototype).
+
+More at **[veai.jp](https://veai.jp/)** · writing at **[veai.jp/blog](https://veai.jp/blog/)**.
 
 📫 Cloud & delivery work → **[hire-veai.com](https://hire-veai.com/)**
