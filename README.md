@@ -20,9 +20,9 @@ My caregiving experience began as a **young carer** — that lived perspective, 
 **In development**
 - **[Medication Promise](https://veai.jp/apps/medication-promise/)** — medication records by tap or Alexa, with a gentle streak that never shames.
 - **[GutPacer](https://veai.jp/apps/gutpacer/)** — fast bowel & medication records for a private household (serverless + LINE).
-- **[ParkinSync](https://github.com/larai-w/ParkinSync)** — caregiver paper logs → analysis-ready **HL7 FHIR R4** evidence (synthetic-only, deterministic, CI-verified).
 
 **Research**
+- **[HL7 FHIR R4 evidence path](https://github.com/larai-w/ParkinSync)** — caregiver paper logs → analysis-ready health data (synthetic-only, deterministic, CI-verified).
 - **[EchoCare](https://veai.jp/apps/echocare/)** — voice-enabled care alerts (prototype).
 
 More at **[veai.jp](https://veai.jp/)** · writing at **[veai.jp/blog](https://veai.jp/blog/)**.
