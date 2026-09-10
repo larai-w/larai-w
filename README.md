@@ -25,6 +25,11 @@ My caregiving experience began as a **young carer** — that lived perspective, 
 - **[HL7 FHIR R4 evidence path](https://github.com/larai-w/ParkinSync)** — caregiver paper logs → analysis-ready health data (synthetic-only, deterministic, CI-verified).
 - **[EchoCare](https://veai.jp/apps/echocare/)** — voice-enabled care alerts (prototype).
 
+### 🤝 Open-source collaboration
+- **Home Assistant** — **Merged** PR: [Accessible names for analytics consent switches](https://github.com/home-assistant/frontend/pull/54083)
+- **Microduck** — **In review** PR: [Fresh camera snapshots through robotctl and console HTTP](https://github.com/pollen-robotics/microduck/pull/241)
+- **stack-chan** — **In review** PR: [Deterministic sample sync for gallery output](https://github.com/stack-chan/stack-chan/pull/702)
+
 More at **[veai.jp](https://veai.jp/)** · writing at **[veai.jp/blog](https://veai.jp/blog/)**.
 
 📫 Cloud & delivery work → **[hire-veai.com](https://hire-veai.com/)**
