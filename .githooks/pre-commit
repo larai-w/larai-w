@@ -1,0 +1,16 @@
+#!/bin/sh
+# Secret scan on staged changes before they become public on the GitHub profile.
+# Enable once per clone:  git config core.hooksPath .githooks
+# Do NOT bypass with --no-verify.
+set -eu
+
+if command -v gitleaks >/dev/null 2>&1; then
+  if ! gitleaks protect --staged --redact -v; then
+    echo ""
+    echo "❌ pre-commit blocked: secret detected in staged changes."
+    echo "   Remove the secret, or (if a false positive) allowlist it in .gitleaks.toml."
+    exit 1
+  fi
+else
+  echo "⚠️  gitleaks not installed — secret scan skipped. Install: brew install gitleaks"
+fi
