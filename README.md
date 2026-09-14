@@ -27,7 +27,7 @@ My caregiving experience began as a **young carer** — that lived perspective, 
 
 ### 🤝 Open-source collaboration
 - **Home Assistant** — **Merged** PR: [Accessible names for analytics consent switches](https://github.com/home-assistant/frontend/pull/54083)
-- **Microduck** — **In review** PR: [Fresh camera snapshots through robotctl and console HTTP](https://github.com/pollen-robotics/microduck/pull/241)
+- **Microduck** — **Merged** PR: [Fresh camera snapshots through robotctl and console HTTP](https://github.com/pollen-robotics/microduck/pull/241)
 - **stack-chan** — **In review** PR: [Deterministic sample sync for gallery output](https://github.com/stack-chan/stack-chan/pull/702)
 
 More at **[veai.jp](https://veai.jp/)** · writing at **[veai.jp/blog](https://veai.jp/blog/)**.
