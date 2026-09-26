@@ -1,36 +1,55 @@
-# Hi, I'm larai-w 👋
+# Hi, I'm larai-w
 
-**AgeTech builder** — I design and ship digital tools for **caregiving and independent living at home**. A certified project manager (PMP) who also writes the code.
+**I build software for caregiving and independent living, with a focus on reliable data and AWS serverless systems.**
 
-My caregiving experience began as a **young carer** — that lived perspective, not a job title, is why I build these products. Warm, honest, and **not locked to any single condition**.
+I create and maintain the VEAI LAB. products, from browser interfaces to backend services, infrastructure and automated checks. I am a certified project manager (PMP), and my experience as a young carer informs the problems I choose to work on.
 
-### 🛠 What I work with
-- **Cloud / backend** — AWS serverless (Lambda, DynamoDB, CDK), CI/CD, infrastructure as code
-- **Health-data** — HL7 FHIR interoperability (synthetic-only, fail-closed, no clinical inference)
-- **GenAI** — LLM evaluation & grounded, governed AI-assisted delivery
-- **Delivery** — PMP · Agile — user stories, auditable issues, honest status reporting
+## Start here: engineering evidence
 
-### 📦 Products I've built — VEAI LAB.
+### [Open Care Evidence Toolkit](https://github.com/larai-w/open-care-evidence-toolkit)
 
-**Live**
-- **[CareReady](https://veai.jp/ready/)** — an offline belongings checklist for care transitions (hospital, short-stay, day service). PWA.
-- **[CareQuest](https://veai.jp/carequest/)** — a local-first care-record PWA with opt-in AWS sync.
-- **[かんたん家族サポート](https://veai.jp/kazoku-support/)** — one page of big buttons for a family member who finds apps hard.
+An offline Python toolkit for inspecting synthetic care observations before they enter analytics or ML pipelines.
 
-**In development**
-- **[Medication Promise](https://veai.jp/apps/medication-promise/)** — medication records by tap or Alexa, with a gentle streak that never shames.
-- **[GutPacer](https://veai.jp/apps/gutpacer/)** — fast bowel & medication records for a private household (serverless + LINE).
+- **Data quality:** deterministic JSON/CSV checks with stable rule IDs and explicit missingness semantics.
+- **Evaluation:** [controlled data-quality experiments](https://github.com/larai-w/open-care-evidence-toolkit/tree/main/benchmarks), including false alarms and missed problems.
+- **Time and lineage:** [history replay](https://github.com/larai-w/open-care-evidence-toolkit/blob/main/HISTORY.md) distinguishes observation, revision and arrival times to prevent later information from entering earlier snapshots.
+- **Reproducibility:** [CLI/browser compatibility](https://github.com/larai-w/open-care-evidence-toolkit/blob/main/docs/input-compatibility.md), synthetic fixtures and [CI](https://github.com/larai-w/open-care-evidence-toolkit/actions/workflows/test.yml).
 
-**Research**
-- **[HL7 FHIR R4 evidence path](https://github.com/larai-w/ParkinSync)** — caregiver paper logs → analysis-ready health data (synthetic-only, deterministic, CI-verified).
-- **[EchoCare](https://veai.jp/apps/echocare/)** — voice-enabled care alerts (prototype).
+This is data-quality and pipeline engineering evidence. The toolkit does not train or evaluate an ML model, and its examples do not establish clinical performance.
 
-### 🤝 Open-source collaboration
-- **Home Assistant** — **Merged** PR: [Accessible names for analytics consent switches](https://github.com/home-assistant/frontend/pull/54083)
-- **Microduck** — **Merged** PR: [Fresh camera snapshots through robotctl and console HTTP](https://github.com/pollen-robotics/microduck/pull/241)
-- **stack-chan** — **In review** PR: [Deterministic sample sync for gallery output](https://github.com/stack-chan/stack-chan/pull/702)
-- **gitleaks-action** — **In review** PR: [Document which commits get scanned for each event type](https://github.com/gitleaks/gitleaks-action/pull/237)
+### Application engineering
 
-More at **[veai.jp](https://veai.jp/)** · writing at **[veai.jp/blog](https://veai.jp/blog/)**.
+| Project | What to inspect |
+| --- | --- |
+| [CareQuest](https://github.com/larai-w/carequest) | Local-first TypeScript PWA, optional Cognito authentication, backup/restore boundaries, Vitest and Playwright checks. [App](https://veai.jp/carequest/) |
+| [CareReady](https://github.com/larai-w/careready-belongings-checker) | Offline belongings checklist for care transitions. [App](https://veai.jp/ready/) |
+| [GutPacer](https://github.com/larai-w/GutPacer-ParkinSync-Module) | Bowel and medication records, Lambda/DynamoDB, LINE reminders and explicit observation semantics. In development. |
+| [ParkinSync](https://github.com/larai-w/ParkinSync) | Synthetic health-data research and a deterministic HL7 FHIR R4 evidence path. No clinical inference. |
 
-📫 Cloud & delivery work → **[hire-veai.com](https://hire-veai.com/)**
+## Open-source contributions
+
+**Merged**
+
+- [Home Assistant frontend #54083](https://github.com/home-assistant/frontend/pull/54083) — accessible names for analytics consent switches.
+- [Microduck #241](https://github.com/pollen-robotics/microduck/pull/241) — fresh camera snapshots through robotctl and console HTTP.
+
+**Open PRs** — status checked on 2026-09-26; links show the current state.
+
+- [OHDSI DataQualityDashboard #699](https://github.com/OHDSI/DataQualityDashboard/pull/699) — enabling `DEATH.person_id` uniqueness checks across supported CDM versions.
+- [DuckDB documentation #7309](https://github.com/duckdb/duckdb-web/pull/7309) — recursive Parquet directory inputs, checked against two CLI versions.
+- [Microduck #330](https://github.com/pollen-robotics/microduck/pull/330) — enforcing per-component artifact size budgets and required files.
+- [stack-chan #702](https://github.com/stack-chan/stack-chan/pull/702) — deterministic synchronization for gallery samples.
+- [gitleaks-action #237](https://github.com/gitleaks/gitleaks-action/pull/237) — documenting which commits are scanned for each event type.
+
+## Tools and working approach
+
+- **Languages:** Python, TypeScript and JavaScript.
+- **Cloud:** AWS Lambda, DynamoDB, Cognito, S3/CloudFront and CDK.
+- **Quality:** synthetic fixtures, regression checks, CI and explicit data contracts.
+- **Delivery:** small reviewable changes, documented limitations and traceable implementation evidence.
+
+My solo projects use AI-assisted development. The linked source, checks and review history show what has been implemented and evaluated; they should be read alongside each project's limitations.
+
+More products: [Medication Promise](https://veai.jp/apps/medication-promise/), [EchoCare](https://veai.jp/apps/echocare/) and [かんたん家族サポート](https://veai.jp/kazoku-support/).
+
+[VEAI LAB.](https://veai.jp/) · [Engineering and product writing](https://veai.jp/blog/) · [Cloud and delivery work](https://hire-veai.com/)
