@@ -1,8 +1,12 @@
 # Hi, I'm larai-w 👋
 
-**I build software for caregiving and independent living, with a focus on reliable data and AWS serverless systems.**
+**AgeTech builder, caregiver at heart, and the person behind VEAI LAB. 🌱**
 
-I create and maintain the VEAI LAB. products, from browser interfaces to backend services, infrastructure and automated checks. I am a certified project manager (PMP), and my experience as a young carer informs the problems I choose to work on.
+My experience as a **young carer** is why I build tools for caregiving and independent living. I care about the small, everyday moments: preparing for a care transition, remembering what happened today, and making it a little easier to ask for help.
+
+I want these tools to feel warm and approachable, to respect the people using them, and to be honest about what they can and cannot do. They are not tied to any single condition.
+
+I am also a certified project manager (PMP) who writes the code — from browser interfaces to AWS services and automated checks. Below are the projects, experiments and open-source contributions behind that work. 🛠
 
 ## 🔎 Start here: engineering evidence
 
