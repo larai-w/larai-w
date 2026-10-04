@@ -34,13 +34,13 @@ This is data-quality and pipeline engineering evidence. The toolkit does not tra
 
 **Merged**
 
+- [OHDSI DataQualityDashboard #699](https://github.com/OHDSI/DataQualityDashboard/pull/699) — `DEATH.person_id` uniqueness checks for CDM 5.3, 5.4 and 5.5.
 - [Home Assistant frontend #54083](https://github.com/home-assistant/frontend/pull/54083) — accessible names for analytics consent switches.
 - [Microduck #241](https://github.com/pollen-robotics/microduck/pull/241) — fresh camera snapshots through robotctl and console HTTP.
 - [DuckDB documentation #7309](https://github.com/duckdb/duckdb-web/pull/7309) — recursive Parquet directory inputs, checked against two CLI versions.
 
 **Open PRs** — status checked on 2026-09-28; links show the current state.
 
-- [OHDSI DataQualityDashboard #699](https://github.com/OHDSI/DataQualityDashboard/pull/699) — enabling `DEATH.person_id` uniqueness checks across supported CDM versions.
 - [Microduck #330](https://github.com/pollen-robotics/microduck/pull/330) — enforcing per-component artifact size budgets and required files.
 - [stack-chan #702](https://github.com/stack-chan/stack-chan/pull/702) — deterministic synchronization for gallery samples.
 - [gitleaks-action #237](https://github.com/gitleaks/gitleaks-action/pull/237) — documenting which commits are scanned for each event type.
